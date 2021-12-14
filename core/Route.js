@@ -1,13 +1,13 @@
 // route mahasiswa
-const { CreateMahasiswaRoute } = require('routes/mhs/create.route')
-const { ResultsMahasiswaRoute } = require('routes/mhs/results.route')
-const { ResultMahasiswaRoute } = require('routes/mhs/result.route')
-const { DeleteMahasiswaRoute } = require('routes/mhs/delete.route')
-const { UpdateMahasiswaRoute } = require('routes/mhs/update.route')
+const { CreateMahasiswaRoute } = require('../app/routes/mhs/create.route')
+const { ResultsMahasiswaRoute } = require('../app/routes/mhs/results.route')
+const { ResultMahasiswaRoute } = require('../app/routes/mhs/result.route')
+const { DeleteMahasiswaRoute } = require('../app/routes/mhs/delete.route')
+const { UpdateMahasiswaRoute } = require('../app/routes/mhs/update.route')
 
 //route home
-const { HomeRoute } = require('routes/home/home.route')
-const { AboutRoute } = require('routes/home/about.route')
+const { HomeRoute } = require('../app/routes/home/home.route')
+const { AboutRoute } = require('../app/routes/home/about.route')
 
 class Route {
   init() {
